@@ -35,6 +35,9 @@ Paket hanya perlu dipasang satu kali melalui fungsi `install.packages("nama_pake
 evals <- read_csv("../data-raw/evals.csv")
 evals
 ```
+```{r}
+head(evals)
+```
 
 Anda dapat menggunakan fungsi `glimpse` dari paket `dplyr` untuk melihat ringkasan data. tersebut. Isilah '___' dengan jawaban yang tepat untuk melihat ringkasan data `evals`! Ada berapa variable dan observasi pada data `evals` tersebut?
 
