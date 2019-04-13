@@ -90,6 +90,7 @@ ggplot(data = evals, aes(x = age, y = score)) +
 Bagaimana jika Anda menambahkan argumen 'colour = ethnicity' ke dalam `aes()`? Apakah yang terjadi dan dapatkah Anda menjelaskannya? Anda dipersilahkan untuk  mengganti label atau menambahkan judul pada grafik dengan menggunakan `labs`.
 
 ```{r}
+
 ggplot(data = evals, aes(x = age, y = score, colour = ethnicity )) +
   geom_point() +
   geom_smooth(method = "lm") +
